@@ -9,9 +9,8 @@ import (
 
 // StoreSpec defines the desired state of Store
 type StoreSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
-	// Add custom validation using kubebuilder tags: https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html
+	Location string `json:"location,omitempty"`
+	Size     int32  `json:"size"`
 }
 
 // StoreStatus defines the observed state of Store
