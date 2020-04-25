@@ -15,8 +15,7 @@ spec:
       serviceAccountName: storefront-operator
       containers:
         - name: storefront-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/eochieng/storefront-operator:v0.0.1
           command:
           - storefront-operator
           imagePullPolicy: Always
