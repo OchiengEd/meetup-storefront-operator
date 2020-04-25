@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: storefront-operator
+subjects:
+- kind: ServiceAccount
+  name: storefront-operator
+roleRef:
+  kind: Role
+  name: storefront-operator
+  apiGroup: rbac.authorization.k8s.io
