@@ -1,0 +1,7 @@
+apiVersion: app.storefront.com/v1alpha1
+kind: Store
+metadata:
+  name: example-store
+spec:
+  # Add fields here
+  size: 3
