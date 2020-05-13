@@ -1,5 +1,5 @@
 # Design of storefront
-This is a simple operator created during the Kubernetes San Antonio Meetup.
+This is a simple operator created during the Kubernetes San Antonio Meetup based on operator-sdk.
 
 ## Type Store
 Data we want to be able to define for the Store resource:
@@ -21,6 +21,6 @@ spec:
 ## GVK (Group Version Kind)
 Storefront owns the domain `storefront.com`
 
-Group: app.storefront.com
-Version: v1alpha1
-Kind: Store
+Group: app.storefront.com  
+Version: v1alpha1  
+Kind: Store  
